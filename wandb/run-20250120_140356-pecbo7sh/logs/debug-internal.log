@@ -1,0 +1,7 @@
+{"time":"2025-01-20T14:03:56.756063+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.3","symlink path":"/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_140356-pecbo7sh/logs/debug-core.log"}
+{"time":"2025-01-20T14:03:56.970816+07:00","level":"INFO","msg":"created new stream","id":"pecbo7sh"}
+{"time":"2025-01-20T14:03:56.971158+07:00","level":"INFO","msg":"stream: started","id":"pecbo7sh"}
+{"time":"2025-01-20T14:03:56.971185+07:00","level":"INFO","msg":"handler: started","stream_id":"pecbo7sh"}
+{"time":"2025-01-20T14:03:56.971305+07:00","level":"INFO","msg":"sender: started","stream_id":"pecbo7sh"}
+{"time":"2025-01-20T14:03:56.971409+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"pecbo7sh"}
+{"time":"2025-01-20T14:03:57.406645+07:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,19 @@
+weave version 0.51.29 is available!  To upgrade, please run:
+ $ pip install weave --upgrade
+Logged in as Weights & Biases user: kmkim2545.
+View Weave data at https://wandb.ai/20kmkim02/RAG_Streamlit/weave
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/01948291-05f9-7f10-8e38-fe5375c74673
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/01948294-701b-7740-a79e-d9f38fdd1dbf
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/01948298-3f08-7872-b9e5-0a14d92554a6
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create

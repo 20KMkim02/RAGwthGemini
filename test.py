@@ -20,7 +20,7 @@ retriever = TFIDFRetriever()
 retriever.index_data(list(map(dict, chunked_data.rows)))
 
 # Streamlit App Title
-st.title("💬 Chat Interface with Gemini API and Document Retrieval")
+st.title("💬 Chat with ME eiei")
 
 # Sidebar input for Gemini API key
 gemini_api_key = st.sidebar.text_input("Enter your Gemini API key", type="password")
