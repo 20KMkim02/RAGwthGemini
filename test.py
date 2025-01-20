@@ -82,6 +82,8 @@ if input_text:
         
         # Add API response to session state
         st.session_state["messages"].append({"type": "bot", "text": response})
+        
+        wandb.log(input_text,retrieved_content,response)
 
 # Display chat history
 for message in st.session_state["messages"]:
