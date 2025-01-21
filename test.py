@@ -7,14 +7,16 @@ from script import TFIDFRetriever
 # WandB Initialization
 WANDB_PROJECT = "RAG_Streamlit"
 wandb.login()
-
+# Init wandb
 run = wandb.init(
     project=WANDB_PROJECT,
     group="EiEi",
 )
+# Inint Weave
 weave_client = weave.init(WANDB_PROJECT)
 
 # Retrieve and index chunked data
+# Load Chucnked_data to RAM
 chunked_data = weave.ref("chunked_data:v1").get()
 retriever = TFIDFRetriever()
 retriever.index_data(list(map(dict, chunked_data.rows)))
@@ -39,7 +41,7 @@ def generate_response(input_text):
             "parts": [{"text": input_text}]
         }]
     }
-
+    # Catch Gemini API response
     try:
         response = requests.post(gemini_api_endpoint, headers=headers, json=payload)
         if response.status_code == 200:
@@ -71,6 +73,7 @@ if input_text:
         st.session_state["messages"].append({"type": "user", "text": input_text})
 
         # Retrieve documents using TFIDFRetriever
+        # คิดว่านานใน process นี้ตอนที่มันมา search retreive
         search_results = retriever.search(input_text)
         retrieved_content = "\n\n".join([result["text"] for result in search_results])
         
@@ -83,7 +86,12 @@ if input_text:
         # Add API response to session state
         st.session_state["messages"].append({"type": "bot", "text": response})
         
-        wandb.log(input_text,retrieved_content,response)
+        wandb.log({
+        "input_text": input_text,
+        "retrieved_content": retrieved_content,
+        "response": response
+        })
+
 
 # Display chat history
 for message in st.session_state["messages"]:

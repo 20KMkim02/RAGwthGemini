@@ -1,0 +1,38 @@
+weave version 0.51.29 is available!  To upgrade, please run:
+ $ pip install weave --upgrade
+Logged in as Weights & Biases user: kmkim2545.
+View Weave data at https://wandb.ai/20kmkim02/RAG_Streamlit/weave
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/0194832e-a5e2-7b93-947d-44a5eab609f9
+2025-01-20 17:07:47.761 Uncaught app exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 584, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/test.py", line 86, in <module>
+    wandb.log(input_text,retrieved_content,response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 441, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 393, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 383, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1906, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1608, in _log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/01948334-eb48-7752-86d4-398ac91ec106
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+Task failed: HTTPError: 413 Client Error: Request Entity Too Large for url: https://trace.wandb.ai/obj/create
+🍩 https://wandb.ai/20kmkim02/RAG_Streamlit/r/call/0194833d-4506-70d1-ad2f-6c17a0e96778
+[34m  Stopping...[0m

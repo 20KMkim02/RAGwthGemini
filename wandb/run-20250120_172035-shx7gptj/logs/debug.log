@@ -1,0 +1,7 @@
+2025-01-20 17:20:35,319 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_172035-shx7gptj/logs/debug.log
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_172035-shx7gptj/logs/debug-internal.log
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():740] wandb.init() called when a run is still active
+2025-01-20 17:27:31,517 WARNING MsgRouterThr:83856 [router.py:message_loop():75] message_loop has been closed

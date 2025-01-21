@@ -1,0 +1,44 @@
+{
+  "os": "macOS-13.4.1-arm64-arm-64bit",
+  "python": "CPython 3.11.4",
+  "startedAt": "2025-01-21T04:19:24.519750Z",
+  "program": "/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/justload.py",
+  "codePath": "justload.py",
+  "git": {
+    "remote": "https://github.com/20KMkim02/RAGwthGemini.git",
+    "commit": "556e7d00b2cdd41ad1db85bab8782b9fcaa70787"
+  },
+  "email": "kmkim2545@gmail.com",
+  "root": "/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini",
+  "host": "Yodsapats-MacBook-Air.local",
+  "executable": "/usr/local/bin/python3",
+  "codePathLocal": "justload.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "232392052736"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "232392052736"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "15032385536",
+    "ramTotalBytes": "8589934592"
+  }
+}

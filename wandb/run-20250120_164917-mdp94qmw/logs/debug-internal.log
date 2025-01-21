@@ -1,0 +1,15 @@
+{"time":"2025-01-20T16:49:17.450567+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.3","symlink path":"/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_164917-mdp94qmw/logs/debug-core.log"}
+{"time":"2025-01-20T16:49:17.56556+07:00","level":"INFO","msg":"created new stream","id":"mdp94qmw"}
+{"time":"2025-01-20T16:49:17.565897+07:00","level":"INFO","msg":"stream: started","id":"mdp94qmw"}
+{"time":"2025-01-20T16:49:17.566123+07:00","level":"INFO","msg":"handler: started","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T16:49:17.56625+07:00","level":"INFO","msg":"sender: started","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T16:49:17.566285+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T16:49:18.054252+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T17:27:31.520262+07:00","level":"INFO","msg":"stream: closing","id":"mdp94qmw"}
+{"time":"2025-01-20T17:27:31.520957+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T17:27:31.523907+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T17:27:33.096157+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T17:27:33.472579+07:00","level":"INFO","msg":"handler: closed","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T17:27:33.472598+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T17:27:33.472624+07:00","level":"INFO","msg":"sender: closed","stream_id":"mdp94qmw"}
+{"time":"2025-01-20T17:27:33.472832+07:00","level":"INFO","msg":"stream: closed","id":"mdp94qmw"}

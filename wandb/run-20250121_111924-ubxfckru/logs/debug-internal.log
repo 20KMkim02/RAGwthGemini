@@ -1,0 +1,15 @@
+{"time":"2025-01-21T11:19:24.528422+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.3","symlink path":"/Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250121_111924-ubxfckru/logs/debug-core.log"}
+{"time":"2025-01-21T11:19:24.642232+07:00","level":"INFO","msg":"created new stream","id":"ubxfckru"}
+{"time":"2025-01-21T11:19:24.64264+07:00","level":"INFO","msg":"stream: started","id":"ubxfckru"}
+{"time":"2025-01-21T11:19:24.642888+07:00","level":"INFO","msg":"handler: started","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:19:24.642945+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:19:24.643025+07:00","level":"INFO","msg":"sender: started","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:19:25.476729+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T11:22:42.492258+07:00","level":"INFO","msg":"stream: closing","id":"ubxfckru"}
+{"time":"2025-01-21T11:22:42.492857+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T11:22:42.496894+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T11:22:43.429456+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-21T11:22:43.864302+07:00","level":"INFO","msg":"handler: closed","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:22:43.864335+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:22:43.864443+07:00","level":"INFO","msg":"sender: closed","stream_id":"ubxfckru"}
+{"time":"2025-01-21T11:22:43.865026+07:00","level":"INFO","msg":"stream: closed","id":"ubxfckru"}

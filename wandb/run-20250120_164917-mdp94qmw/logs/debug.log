@@ -1,0 +1,47 @@
+2025-01-20 16:49:17,177 INFO    ScriptRunner.scriptThread:83856 [wandb_setup.py:_flush():68] Current SDK version is 0.19.3
+2025-01-20 16:49:17,177 INFO    ScriptRunner.scriptThread:83856 [wandb_setup.py:_flush():68] Configure stats pid to 83856
+2025-01-20 16:49:17,177 INFO    ScriptRunner.scriptThread:83856 [wandb_setup.py:_flush():68] Loading settings from /Users/yodsapat/.config/wandb/settings
+2025-01-20 16:49:17,177 INFO    ScriptRunner.scriptThread:83856 [wandb_setup.py:_flush():68] Loading settings from /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/settings
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_164917-mdp94qmw/logs/debug.log
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_164917-mdp94qmw/logs/debug-internal.log
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 16:49:17,178 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():745] starting backend
+2025-01-20 16:49:17,414 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():749] sending inform_init request
+2025-01-20 16:49:17,442 INFO    ScriptRunner.scriptThread:83856 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-01-20 16:49:17,443 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():764] backend started and connected
+2025-01-20 16:49:17,445 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():857] updated telemetry
+2025-01-20 16:49:17,469 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():889] communicating run to backend with 90.0 second timeout
+2025-01-20 16:49:18,051 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():941] starting run threads in backend
+2025-01-20 16:49:18,553 INFO    ScriptRunner.scriptThread:83856 [wandb_run.py:_console_start():2420] atexit reg
+2025-01-20 16:49:18,554 INFO    ScriptRunner.scriptThread:83856 [wandb_run.py:_redirect():2270] redirect: wrap_raw
+2025-01-20 16:49:18,557 INFO    ScriptRunner.scriptThread:83856 [wandb_run.py:_redirect():2335] Wrapping output streams.
+2025-01-20 16:49:18,557 INFO    ScriptRunner.scriptThread:83856 [wandb_run.py:_redirect():2360] Redirects installed.
+2025-01-20 16:49:18,572 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():983] run started, returning control to user process
+2025-01-20 17:04:34,119 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_170434-bq3obq49/logs/debug.log
+2025-01-20 17:04:34,120 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_170434-bq3obq49/logs/debug-internal.log
+2025-01-20 17:04:34,120 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 17:04:34,120 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 17:04:34,120 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():740] wandb.init() called when a run is still active
+2025-01-20 17:04:49,116 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_170449-4492zaud/logs/debug.log
+2025-01-20 17:04:49,117 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_170449-4492zaud/logs/debug-internal.log
+2025-01-20 17:04:49,117 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 17:04:49,117 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 17:04:49,117 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():740] wandb.init() called when a run is still active
+2025-01-20 17:11:42,079 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_171142-zwvsjoqs/logs/debug.log
+2025-01-20 17:11:42,080 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_171142-zwvsjoqs/logs/debug-internal.log
+2025-01-20 17:11:42,081 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 17:11:42,081 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 17:11:42,081 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():740] wandb.init() called when a run is still active
+2025-01-20 17:20:35,319 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():598] Logging user logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_172035-shx7gptj/logs/debug.log
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:_log_setup():599] Logging internal logs to /Users/yodsapat/Documents/University/ฝึกงาน/Botnoi/Stremelit/RAGwithGemini/RAGwthGemini/wandb/run-20250120_172035-shx7gptj/logs/debug-internal.log
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():714] calling init triggers
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():719] wandb.init called with sweep_config: {}
+config: {}
+2025-01-20 17:20:35,323 INFO    ScriptRunner.scriptThread:83856 [wandb_init.py:init():740] wandb.init() called when a run is still active
+2025-01-20 17:27:31,517 WARNING MsgRouterThr:83856 [router.py:message_loop():75] message_loop has been closed

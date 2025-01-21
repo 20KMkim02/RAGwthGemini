@@ -1,0 +1,4 @@
+weave version 0.51.29 is available!  To upgrade, please run:
+ $ pip install weave --upgrade
+Logged in as Weights & Biases user: kmkim2545.
+View Weave data at https://wandb.ai/20kmkim02/RAG_Streamlit/weave
